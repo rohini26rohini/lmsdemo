@@ -1,0 +1,111 @@
+<a class="imagesDiv-link" href="#">
+<div class="row">
+    <div class="col-md-12">
+        <button class="close_btn">
+            <i class="fa fa-arrow-right transfeeclose"></i>
+        </button></a>
+    </div>
+</div>
+    <div class="dirtransportation scroller">
+        <div class="row">
+            <div class="col-md-8">
+            <h6>Transport fee details</h6>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-sm dirstudent-list dataTable no-footer" style="width: 100%;" role="grid" aria-describedby="studentlist_table_info">
+                                <thead>
+                                    <tr>
+                                        <th>sl no</th>
+                                        <th>title</th>
+                                        <th>Amount</th>
+                                        <th>Type</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>registration</td>
+                                        <td>1000.00</td>
+                                        <td>Onetime</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>transportaion fee</td>
+                                        <td>1000.00</td>
+                                        <td>Monthly</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">Total</td>
+                                        <td>10000.00</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <h6 class="dirtransporttitle">Recurring Payment</h6>
+                        <div class="table-responsive">
+                        <form id="recurringpayment" >
+                        
+                            <table class="table table-striped table-sm dirstudent-list dataTable no-footer" style="width: 100%;" role="grid" aria-describedby="studentlist_table_info">
+                            <tr>
+                                        <th>month</th>
+                                        <th>payable amount</th>
+                                    </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                           
+                                            <input class="form-check-input" onclick="trans_payment()" type="checkbox" name="month[]" id="selectedpaymonth" value="">
+                                            <label class="form-check-label" for="inlineCheckbox1">jun</label>
+                                        </div>
+                                    </td>
+                                    <td>1000.00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="form-check">
+                                           
+                                            <input class="form-check-input" onclick="trans_payment()" type="checkbox" name="month[]" id="selectedpaymonth" value="">
+                                            <label class="form-check-label" for="inlineCheckbox1">july</label>
+                                        </div>
+                                    </td>
+                                    <td>1000.00</td>
+                                </tr>
+                            </table>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-md-4">
+            <h6>Transportation</h6>
+                <div class="table-responsive" id="loadtransfeesummary">
+                    <table class="table table-striped table-sm dirstudent-list dataTable no-footer" style="width: 100%;" role="grid" aria-describedby="studentlist_table_info">';
+            
+                <tr>
+                    <td>jun</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>total</td>
+                    <td>1000</td>
+                </tr>
+                <tr>
+                    <td>payable amount</td>
+                    <td><input class="form-control" type="text" value="1000" name="payable_amount" readonly/></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" class="btn btn-info btn_save" value="submit" name="submit"/></td>
+                </tr>
+                </table>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>

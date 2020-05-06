@@ -1,0 +1,300 @@
+.addmorebutton{
+    width: 100%;
+    text-align: center;
+    background-color: #013ca6;
+    color: white;
+}
+.remove-button{
+    background-color: #F44336;
+    color: white;
+    font-size: 14PX;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 9px;
+}
+.option-answer{
+    padding: 10px !important;
+    margin-left: 10px;
+}
+.mandatory-asterisk{
+    color: red;
+    margin-left: 3px;
+}
+.Messengerbox .input-group-prepend .input-group-text{
+    background: #ea6228;
+    color: #fff;
+    border: none
+}
+.select_check .multiselect-container{
+
+    transform: none !important;
+    top: 40px !important;
+    width: 100%;    transition: all ease-in-out 0.4s;
+
+}
+.select_check .multiselect-container li a label.checkbox{
+
+    padding: 5px !important;
+    width: 100%;
+    text-align: left;
+
+}
+.select_check.btn-group{
+    width: 100%;
+}
+.select_check.btn-group .multiselect{
+  text-align: left;
+    width: 100%;
+    font-size: 12px;
+}
+.select_check.btn-group .dropdown-toggle::after {
+
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    right: 10px;}
+
+.title-header{
+    padding: 5px;
+    background-color: #013ca6;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    font-family: s-bold;
+    position: relative;
+}
+.passage-view{
+    height: 200px;
+    background-color: #fff;
+    overflow: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100vh;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 1000000000000000;
+    background: #0000004a;
+
+}
+
+
+.checkbox_list{
+    list-style: none;
+    padding: 0;
+}.checkbox_list li{
+  margin-bottom: 20px;
+}
+.table_register_fee tr td{
+        padding: 5px ;
+}
+
+.loader img {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.mybutton {
+    padding: 5px 7px 5px 7px;
+    color: #ffffff;
+    background-color: #014e94;
+    cursor: pointer;
+    font-size: 11px;
+    border: 1px solid #013ca6;
+font-family: s-bold;
+}
+.table_batch_details .table tr td, .table_batch_details .table tr th {
+    font-size: 12px;
+}
+
+.registration_success img {
+    height: 90px;
+}
+
+.save_preview{
+    background-color: #013ca6;
+    color: #fff;
+    border-color: #ffffff;
+    font-size: 13px;
+    padding: 3px 10px 3px 10px;
+}
+
+.calendar_class_conflict{
+    background-color: #ff0000 !important;
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 15px, rgba(255,255,255,.5) 15px, rgba(255,255,255,.5) 20px);
+    border-color: #ff0000 !important;
+}
+
+.custom_box{
+    float: left;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 0px;
+    padding: 30px;
+    min-height: 85px;
+    border-radius: 5px;
+    position: relative;
+    background: #ffffff;
+    transition: all ease-in-out 0.4s;
+    color: #fff !important;
+}
+
+.jconfirm-buttons button {
+    text-transform: none !important;
+    font-size: 14px;
+    font-weight: normal !important;
+    text-shadow: none;
+}
+
+.error{
+    /* height:100% !important; */
+}
+
+td.resultBoxs p {
+    margin: 5px 0px;
+}
+.resTbl tr td,
+.resTbl tr th{
+    vertical-align: middle !important;
+}
+.mentorTbl div#syllabus_data_filter {
+    text-align: right;
+}
+
+button.btn.btn-default.add_row.add_new_btn.btn_add_call.mentorReferences {
+    display: block;
+    margin-top: 32px;
+    width: 100%;
+}
+#boxscroll{
+    width: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    height: 370px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+}
+.nicescroll-cursors {
+    background: #ababab !important;
+}
+.chatbox .chatbody{
+    display: flex;
+    flex-direction: column;
+}
+.chatbox .chatext, .chatbox  .chatextrtl {
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 12px;
+    font-family: s-bold;
+    position: relative;
+    margin-bottom: 25px;
+
+}
+.chatbox .chatext p, .chatbox  .chatextrtl p{
+    margin: 0px;
+    text-align: justify;
+}
+.chatbox  .chatextrtl {
+    background: #c3fbd4;
+    border: 1px solid #aef9c5;
+    align-self: flex-end;
+    align-items: flex-end;
+
+}
+.chatbox .chatext{
+    background: #f0f6fb;
+    border: 1px solid #dbeeff;
+    align-self: flex-start;
+    align-items: flex-start;
+}
+.chatbox .chatext::after{
+    content: "\f0d9";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    color: #bde0fd;
+    left: -10px;
+    top: 10px;
+}
+
+.chatbox .chatextrtl::after{
+    content: "\f0da";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 26px;
+    position: absolute;
+    bottom: 0;
+    color: #9effbc;
+    right: -10px;
+    top: 10px;
+}
+
+.filter h5 {
+    font-size: 14px;
+    font-family: "s-bold";
+    margin: 0px;
+    margin-right: 10px;
+}
+.white_card.meetinschedule {
+    padding: 0px 20px;
+    margin: 0px;
+}
+.filter h5 span {
+    font-size: 14px;
+    font-family: "regular";
+    color: #333;
+}
+
+.tab .nav-pills .nav-link {
+    color: #fff;
+    font-size: 10px;
+    font-family: "bold";
+}
+
+.view-question{
+    width: 100%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+
+.title-body{ 
+    height: auto !important;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /* border-radius: .25rem; */
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    white-space: pre-wrap;
+}
+
+.cus_question .title-body{
+    font-size: 14px !important;
+}

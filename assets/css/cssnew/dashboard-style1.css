@@ -1,0 +1,514 @@
+.bg-box-white{background: #fff !important;}
+.pzero{padding:0}
+.justify-space-between{justify-content: space-between;}
+.align-self{align-self: center;}
+.series-wapper{padding: 30px 0;}
+.mb-15{margin-bottom: 15px;}.mb-30{margin-bottom: 30px;}
+.dash-box-shadow{box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);}
+.progressbar {
+    width: 100%;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	position: relative;
+	background-color: #EEEEEE;
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+}
+
+.proggress{
+	height: 8px;
+	width: 10px;
+	background-color: #003DA6 !important;
+}
+
+.percentCount{
+	float:right;
+	margin-top: 10px;
+	clear: both;
+	font-weight: bold;
+	font-family: Arial
+}
+.course-wapper h3 , .profile_page .tab-content h3, .cus-title{
+    font-size: 20px !important;
+    font-family: bold !important;
+    margin-bottom: 15px !important;
+    color: #013ca6 !important;
+    position: relative !important;
+}
+.course-wapper h3::after, .profile_page .tab-content h3::after, .cus-title::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 28px;
+    height: 3px;
+    right: 0;
+    left: 0;
+    bottom:-5px;
+    background: #ff661b;
+}
+.course-wapper .card {
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);
+}
+.course-wapper h3 small {
+    display: block;
+    font-family: "Regular";
+    font-size: 14px;
+    margin-top: 7px;
+    color: #687896;
+}
+.course-wapper h4.card-title {
+    font-size: 14px;
+    font-family: bold;
+    color: #ff661b;
+    margin-bottom: 5px;
+}
+.course-wapper .card-text del {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.course-wapper .card-text del {
+    font-size: 12px;
+    margin-right: 10px;
+    color: #989898;
+    font-family: "Regular";
+}
+.course-wapper .card-text p{
+    font-size: 14px;
+    color: #333;
+    font-family: "s-bold";
+    margin: 0;
+}
+.course-wapper .card-text a {
+    padding: 5px 15px;
+    background: #003DA6;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "s-bold";
+    margin-bottom: 15px;
+}
+
+.course-wapper .owl-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.course-wapper button.owl-prev {
+    margin-right: 10px;
+}
+.course-wapper .owl-nav button i {
+    font-size: 12px;
+    padding: 7px;
+    background: #333;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.course-wapper button.owl-next.disabled{
+    opacity: 0.5;
+}
+
+.course-wapper .item {
+    padding: 20px;
+}
+/* .course-wapper .item {
+    padding: 40px 30px;
+} */
+
+.exam-wapper h3 {
+    font-size: 14px;
+    font-family: bold;
+    color: #ff661b;
+    margin-bottom: 0px;
+    position: relative;
+}
+.exam-wapper h3::after{
+    bottom: 20px;
+    background: #003da6;
+}
+.exam-wapper a {
+    padding: 5px 15px;
+    background: #003DA6;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: "s-bold";
+    margin-bottom: 15px;
+}
+.course-box, .exam-box{
+    padding: 20px;
+    border-radius: 4px;
+}
+.warning-stroke {
+    stroke: #FF661B;
+}
+
+.series-wapper-header h3 {
+    font-size: 18px;
+    font-family: bold;
+    margin-bottom: 0;
+    color: #013ca6;
+}
+.lessons{padding-top: 15px ;border-top: 1px solid rgba(239, 239, 239, 0.60);}
+.lessons p{
+    font-family: "s-bold";
+    color: #757575;
+    font-size: 12px;
+    margin: 0;
+    margin-right: 7px;
+}
+.lessons a{
+    border-radius: 4px;
+    flex-basis: 40%;
+    padding: 5px;
+    background: #003DA6;
+    color: #fff;
+    text-align: center;
+}
+.lessons a:hover{
+    background: rgba(0, 61, 166, 0.75);
+}
+.series-body h5 {
+    font-size: 14px;
+    font-family: "s-bold";
+    margin-bottom: 15px;
+    color: #ff661b;
+}
+.time{padding-left: 20px;position: relative;}
+
+.time::before{
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: -2px;
+    left:  0;
+    font-size: 14px;
+    
+}
+.series-wapper .card {
+    margin-bottom: 30px;
+}
+
+.series-wapper .cardImg{
+    position: relative;
+    transition: all 0.3 ease-in-out;
+    height: 120px;
+}
+.series-wapper .cardImg a{
+    height: 100%;
+    width:100% ;
+}
+.series-wapper .cardImg  i{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 32px;
+    width: 32px;
+    font-size: 32px;
+}
+/* .series-wapper .cardImg::before{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    left: 0px;
+    color: #fff;
+    margin: auto;
+    height: 64px;
+    width: 48px;
+    font-size: 48px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.34901960784313724);
+    transition: all 0.3 ease-in-out;
+    cursor: pointer;
+    content: "\f144";
+    transition: all 0.3 ease-in-out;
+} */
+.study-materialHeader{
+    clear: both;
+    margin-top: 30px;
+}
+.quiz .series-wapper-header span{
+    display: block;
+    font-family: "Regular";
+    font-size: 14px;
+    margin-top: 7px;
+    color: #687896;
+}
+
+.quiz .quiz-body .card h5 {
+    background-color: #f7f8f9;
+    margin: 0;
+    padding: .75rem 1.25rem;
+    color: #ff661b;
+}
+
+.quiz .quiz-body .card .card-text{
+    margin: 0;
+    padding: 1.25rem 1.25rem;  
+}
+
+.quiz .quiz-body .card .lessons .custom-control{
+    margin-bottom: 15px;
+}
+
+.quiz .quiz-body .custom-control.custom-radio:last-child{
+    margin-bottom: 0px;
+}
+
+.quiz .custom-radio .custom-control-input:checked~.custom-control-label::before {
+    background-color: #144F94;
+}
+
+.quiz .series-wapper-header button{
+    background: #001D37;
+    color: #fff;
+    font-size: 12px;
+}
+.topic-list .card{
+    margin-bottom: 15px;;
+}
+.video-wapper .series-wapper-header span{
+    position: relative;
+    padding-left: 20px;
+}
+.video-wapper .series-wapper-header span::before{
+    content: "\f017";
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+}
+
+.video-wapper .vid-section{
+    height: 450px;
+    margin-bottom: 30px;
+}
+.video-wapper h3 {
+    margin-bottom: 25px;
+}
+.course-lessons h5 {
+    background-color: #f7f8f9;
+    margin: 0;
+    padding: .75rem 1.25rem;
+    color: #ff661b;
+}
+.course-lessons ul{
+    padding: 0px;
+    margin: 0;
+    border-radius: 4px;
+}
+.course-lessons li {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    background-color: #fff;
+    border-bottom: 1px solid #efefef;
+}
+
+.course-lessons ul a {
+    font-size: 14px;
+    font-family: bold;
+    margin-bottom: 0;
+    color: #013ca6;
+    width: 70%;
+}
+
+.course-lessons ul a span {
+    padding-right: 12px;
+}
+.course-lessons ul small {
+    font-family: "Regular";
+    font-size: 12px;
+    margin-top: 7px;
+    color: #687896;
+}
+
+.course-description p{
+    font-family: "Regular";
+    color: #757575;
+    font-size: 14px;
+    margin: 0;
+    margin-right: 7px;
+    line-height: 25px;
+}
+.profile{padding: 30px 0;}
+.profile-box {
+    box-shadow: 0 10px 25px 0 rgba(50,50,93,.07), 0 5px 15px 0 rgba(0,0,0,.07);
+    padding: 1.25rem;
+    border-radius: 4px;
+}
+
+.profile-box h4 {
+    font-size: 14px;
+    font-family: bold;
+    margin-bottom: 0;
+    color: #013ca6;
+    width: 70%;
+}
+
+.profile-box h4 span{
+    display: block;
+    font-family: "Regular";
+    font-size: 14px;
+    margin-top: 7px;
+    color: #687896;
+}
+
+.profile-box i {
+    font-size: 34px;
+    margin-right: 10px;
+    background: #FF661B;
+    width: 60px;
+    height: 58px;
+    padding: 0;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    border-radius: 100%;
+}
+.profile-pic img{
+    display: block;
+    height: 120px;
+}
+.profile-pic img {
+    display: block;
+    height: 120px;
+    margin: auto;
+    border-radius: 100px;
+    width: 120px;
+    object-fit: cover;
+    border: 1px solid #013ca6;
+}
+
+.profile-pic h5 {
+    font-size: 16px;
+    font-family: bold;
+    margin-bottom: 0;
+    color: #013ca6;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.profile-pic  span{
+    display: block;
+    font-family: "Regular";
+    font-size: 14px;
+    margin-top: 7px;
+    color: #687896;
+    text-align: center;
+}
+
+.proggress-box {
+    margin-top: 30px;
+    position: relative;
+}
+.proggress-box small {
+    position: absolute;
+    top: 10px;
+}
+div#course-slider {
+    background: #f2f2f2;
+    margin: 25px 0;
+    padding: 25px 0;
+    padding-top: 50px;
+    position: relative;
+}
+.course-box svg.circle-chart {
+    display: block;
+    margin: auto;
+}
+
+.dash-box-shadow.exam-box, .dash-box-shadow.course-box , .profile-box.profile-pic{
+    height: 280px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+.dash-box-shadow.exam-box table{
+    margin: 0;
+}
+.breadcrumb-boxs .breadcrumb{
+    background: transparent;
+    padding: 0;
+    margin-bottom :20px;
+}
+
+.breadcrumb-boxs .breadcrumb a {
+    font-family: "s-bold";
+    display: block;
+    color: #3e3443;
+    font-size: 12px;
+}
+.breadcrumb-boxs .breadcrumb  li.breadcrumb-item.active{
+    font-family: "regular";
+    display: block;
+    color: #848484;
+    font-size: 12px;
+}
+.breadcrumb-boxs .breadcrumb-item+.breadcrumb-item::before {
+    display: inline-block;
+    padding-right: .5rem;
+    color: #013ca6;
+    content: "/";
+}
+.profile_page .tab-content h3{
+    margin-bottom: 30px;
+}
+.nav_profile{
+    background: #013ca6;
+}
+.Logo.home-mainlogo {
+    width: 110px;
+    margin-top: 20px;
+}
+header.active .Logo.home-mainlogo {
+    width: 80px;
+    padding: 0px;
+    transition: all 0.5s;
+}
+.chat-box .tab-content{
+    padding: 0;
+}
+.cus-back i {
+    margin-right: 8px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+label.optn {
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: "s-bold";
+}
+.next_btn {
+    padding: 5px 25px;
+    color: #fff !important;
+}
+.study-materialHeader .cus-title::after{
+    bottom: 20px !important;
+}
+header.active{
+    background:#fff !important;
+}

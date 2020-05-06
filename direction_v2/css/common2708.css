@@ -1,0 +1,162 @@
+/* @font-face{
+    font-family:"Light";
+    src: url(../font/OpenSans-Light.ttf);
+}
+@font-face{
+    font-family:"Regular";
+    src: url(../font/OpenSans-Regular.ttf)
+}
+@font-face{
+    font-family:"S-bold";
+    src: url(../font/OpenSans-SemiBold.ttf)
+}
+@font-face{
+    font-family: "Bold";
+    src: url(../font/OpenSans-Bold.ttf)
+}
+@font-face{
+    font-family: "E-Bold";
+    src: url(../font/OpenSans-ExtraBold.ttf)
+} */
+html,
+body {
+	margin: 0px;
+}
+
+body {
+	font-family: "Regular";
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	line-height: 1.7;
+	border-top: 5px solid #00ACD0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none !important;
+}
+
+button:focus,
+.btn:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.v-center {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+}
+
+p {
+	font-size: 12px;
+	font-family: "Regular";
+}
+
+.ColPad {
+	padding: 0px 7.5px;
+}
+
+.RowPad {
+	padding: 0px 7.5px;
+}
+
+.PaddingZero {
+	padding: 0px;
+}
+
+.Paddingleft {
+	padding-left: 0px;
+}
+
+.paddingright {
+	padding-right: 0px;
+}
+
+.BgDblue {
+	background: #001D37;
+	padding: 15px;
+	color: #fff;
+}
+
+.BgBlue {
+	background: #003DA6;
+	color: #fff;
+	padding: 15px;
+}
+
+.BgOrange {
+	background: #FF661B;
+	color: #fff;
+}
+
+.BgGrdSkyblue {
+	background: linear-gradient(#00AED3, #009AB6);
+	padding: 15px;
+	background: -moz-linear-gradient(top, #009ab6 0%, #00aed3 100%);
+	background: -webkit-linear-gradient(top, #009ab6 0%, #00aed3 100%);
+	background: linear-gradient(to bottom, #009ab6 0%, #00aed3 100%);
+}
+
+.BgGrdOrange {
+	background: linear-gradient(45deg, #F7941D, #FEC90A);
+	padding: 15px;
+	background: -moz-linear-gradient(103deg, #F7941D 0%, #FEC90A 100%);
+	background: -webkit-linear-gradient(103deg, #F7941D 0%, #FEC90A 100%);
+	background: linear-gradient(103deg, #F7941D 0%, #FEC90A 100%);
+}
+
+.btn,
+.BtnBorder,
+.BtnBlue,
+.BtnOrang {
+	border-radius: 3px;
+}
+
+.BtnBorder {
+	background: transparent;
+	border: 1px solid #FFFFFF;
+	color: #fff;
+	padding: 15px;
+}
+
+.BtnBlue {
+	background: #014E94;
+	padding: 3px 20px;
+	color: #fff;
+	border: none;
+}
+
+.BtnOrang {
+	background: #FF661B;
+	padding: 3px 20px;
+	color: #fff;
+	border: none;
+}
+
+.sl-overlay {
+	background: #000000 !important;
+	opacity: 0.8 !important;
+}
+
+.sl-wrapper .sl-navigation button.sl-prev {
+	left: 100px !important;
+	color: #fff !important;
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+	right: 100px !important;
+	color: #fff !important;
+}
+
+.checkmark-error {
+	background-color: rgba(255, 0, 0, 0.22) !important;
+	border: 1px solid #ff2222 !important;
+}
